@@ -51,3 +51,37 @@ Stores completed ride information including driver ID, passenger ID, travelled d
    - Passenger ride frequency is incremented.
    - Driver status changes back to **Available**.
 5. The booking history is used to generate driver rankings and identify the most frequent driver-passenger pairs.
+
+## How to Run
+
+1. Clone the repository.
+2. Navigate to the `src` directory.
+3. Compile the program using GCC:
+
+```bash
+gcc ride_booking_system.c -o ride_booking_system -lm
+```
+
+4. Run the executable:
+
+```bash
+./ride_booking_system
+```
+
+## Project Structure
+
+```
+ride-booking-management-system/
+├── README.md
+├── screenshots/
+└── src/
+    └── ride_booking_system.c
+```
+
+## Future Improvements
+
+- Store data in files or a database for persistence.
+- Improve the ride allocation algorithm.
+- Add estimated arrival time calculations.
+- Introduce route optimization.
+- Build a graphical or web-based interface.
